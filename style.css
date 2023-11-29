@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body {
+    background-image: url("vague.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color:#E1982A1A;
+}
+
+.pad {
+    padding: 11px 48px 48px;
+}
+
+.carte {
+    background-color: white;
+    width: 450px;
+    margin:9px auto;
+    border-radius: 20px;
+    box-shadow: 0px 40px 40px -20px rgba(255, 152, 42,0.15);
+    text-align: center;
+}
+
+.title {
+    font-size: 28px;
+    color: #1F2E55;
+    font-weight: 900;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: 18px;
+}
+
+.desc {
+    color:#717FA6;
+    font-weight: 500;
+    margin-bottom: 18px;
+    line-height: 26px;
+}
+
+.details {
+    text-align: start;
+    padding:25px 24px;
+    background-color: #e1982a1a;
+    position: relative;
+    margin-bottom: 18px;
+    border-radius: 10px;
+}
+
+.details img{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e1982a59;
+    margin-right: 20px;
+    margin-top: 4px;
+}
+
+.details2 {
+    display: inline-block;
+}
+
+.details2  h2{
+    color: #1F2E55;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 6px;
+}
+
+.details2 p {
+    color: #717FA6;
+    font-weight: 500;
+}
+
+
+.details a{
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%);
+    right: 24px;
+    display: inline-block;
+    font-weight: 700;
+    color: #382AE1;
+    margin-left: 98px;
+}
+
+.btn {
+    flex-direction: column;
+    display: flex;
+}
+
+.Buy {
+    color: white;
+    font-size: 15px;
+    padding: 15px 14px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(225, 152, 42, 0.69);
+        box-shadow: 0px 20px 20px 0px rgba(255, 152, 42,0.15);
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+
+.cancel {
+    font-size: 15px;
+    padding-top: 20px;
+    color: #717FA6;
+    text-decoration: none;
+    font-weight: 900;
+    padding: 15px 14px;
+    border-radius: 10px;
+    border: none;
+    background-color: white ;
+}
